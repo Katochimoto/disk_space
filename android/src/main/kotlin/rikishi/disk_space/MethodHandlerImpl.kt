@@ -1,4 +1,4 @@
-package de.appgewaltig.disk_space
+package rikishi.disk_space
 
 import android.os.Environment
 import android.os.StatFs

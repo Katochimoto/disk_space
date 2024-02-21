@@ -1,4 +1,4 @@
-package de.appgewaltig.disk_space
+package rikishi.disk_space
 
 import io.flutter.embedding.engine.plugins.FlutterPlugin
 import io.flutter.plugin.common.BinaryMessenger
