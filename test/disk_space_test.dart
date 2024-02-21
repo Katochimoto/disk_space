@@ -1,9 +1,9 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:disk_space/disk_space.dart';
+import 'package:disk_space_ng/disk_space_ng.dart';
 
 void main() {
-  const MethodChannel channel = MethodChannel('disk_space');
+  const MethodChannel channel = MethodChannel('disk_space_ng');
 
   setUp(() {
     channel.setMockMethodCallHandler((MethodCall methodCall) async {

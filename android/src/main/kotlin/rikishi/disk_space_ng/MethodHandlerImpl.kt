@@ -1,4 +1,4 @@
-package rikishi.disk_space
+package rikishi.disk_space_ng
 
 import android.os.Environment
 import android.os.StatFs

@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'dart:async';
 
 import 'package:flutter/services.dart';
-import 'package:disk_space/disk_space.dart';
+import 'package:disk_space_ng/disk_space_ng.dart';
 import 'package:path_provider/path_provider.dart';
 
 void main() => runApp(MyApp());

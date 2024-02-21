@@ -1,10 +1,10 @@
 import Flutter
 import UIKit
 
-public class SwiftDiskSpacePlugin: NSObject, FlutterPlugin {
+public class SwiftDiskSpaceNgPlugin: NSObject, FlutterPlugin {
   public static func register(with registrar: FlutterPluginRegistrar) {
-    let channel = FlutterMethodChannel(name: "disk_space", binaryMessenger: registrar.messenger())
-    let instance = SwiftDiskSpacePlugin()
+    let channel = FlutterMethodChannel(name: "disk_space_ng", binaryMessenger: registrar.messenger())
+    let instance = SwiftDiskSpaceNgPlugin()
     registrar.addMethodCallDelegate(instance, channel: channel)
   }
 

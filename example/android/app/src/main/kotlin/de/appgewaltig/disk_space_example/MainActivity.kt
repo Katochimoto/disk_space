@@ -1,4 +1,4 @@
-package rikishi.disk_space_example
+package rikishi.disk_space_ng_example
 
 import io.flutter.embedding.android.FlutterActivity
 

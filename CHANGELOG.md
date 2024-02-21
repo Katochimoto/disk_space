@@ -1,3 +1,7 @@
+## 1.0.0
+
+- Update dependencies
+
 ## 0.1.1
 
 - Updated Kotlin Version

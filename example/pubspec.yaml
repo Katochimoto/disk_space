@@ -1,9 +1,10 @@
-name: disk_space_example
-description: Demonstrates how to use the disk_space plugin.
+name: disk_space_ng_example
+description: Demonstrates how to use the disk_space_ng plugin.
 publish_to: 'none'
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: '>=3.3.0 <4.0.0'
+  flutter: ">=1.22.0"
 
 dependencies:
   flutter:
@@ -11,13 +12,13 @@ dependencies:
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^0.1.2
+  cupertino_icons: ^1.0.2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  disk_space:
+  disk_space_ng:
     path: ../
   path_provider: ^2.0.2
 
