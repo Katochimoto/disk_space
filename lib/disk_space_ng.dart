@@ -3,7 +3,7 @@ import 'dart:io';
 
 import 'package:flutter/services.dart';
 
-class DiskSpace {
+class DiskSpaceNg {
   static const MethodChannel _channel = const MethodChannel('disk_space_ng');
 
   static Future<String?> get platformVersion async {

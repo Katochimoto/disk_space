@@ -16,6 +16,6 @@ void main() {
   });
 
   test('getPlatformVersion', () async {
-    expect(await DiskSpace.platformVersion, '42');
+    expect(await DiskSpaceNg.platformVersion, '42');
   });
 }

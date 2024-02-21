@@ -27,7 +27,7 @@ class _MyAppState extends State<MyApp> {
   Future<void> initDiskSpace() async {
     double diskSpace = 0;
 
-    diskSpace = await DiskSpace.getFreeDiskSpace;
+    diskSpace = await DiskSpaceNg.getFreeDiskSpace;
 
     List<Directory> directories;
     Map<Directory, double> directorySpace = {};
@@ -45,7 +45,7 @@ class _MyAppState extends State<MyApp> {
     }
 
     for (var directory in directories) {
-      var space = await DiskSpace.getFreeDiskSpaceForPath(directory.path);
+      var space = await DiskSpaceNg.getFreeDiskSpaceForPath(directory.path);
       directorySpace.addEntries([MapEntry(directory, space)]);
     }
 
